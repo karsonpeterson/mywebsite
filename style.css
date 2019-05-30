@@ -258,7 +258,7 @@ input[type=text]:nth-of-type(3) {
 	margin-top: 20px;
 	display: inline-block;
 	border: 3px solid white;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 #radio_box input {
@@ -284,13 +284,13 @@ input[type=text]:nth-of-type(3) {
 	display: inline-block;
 	float: left;
 	border: 3px solid white;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 20px 20px;
 }
 
 button {
 	float: right;
-	border-radius: 20px;
+	border-radius: 10px;
 	font-size: 1.5rem;
 	font-weight: bold;
 	border: 1px solid #FFF;
@@ -311,6 +311,6 @@ button:hover {
 
 textarea {
 	margin-top: 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	width: 70%;
 }
