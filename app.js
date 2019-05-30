@@ -71,6 +71,6 @@ var changeGreeting = function() {
 	var name = firstInput.value;
 	var hello = "Hello ";
 	var newGreeting = hello.concat(name);
-	heroGreeting.value = newGreeting;
+	heroGreeting.innerHTML = newGreeting;
 
 }
