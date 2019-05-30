@@ -310,6 +310,7 @@ button:hover {
 }
 
 textarea {
+	font-family: 'Ubuntu', sans-serif;
 	margin-top: 20px;
 	border-radius: 10px;
 	width: 70%;
