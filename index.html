@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Karson Peterson</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<nav id="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Hobbies</a></li>
+				<li><a href="#">Pictures</a>
+					<ul>
+						<li><a href="#">Me</a></li>
+						<li><a href="#">Others</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section class="hero">
+			<div id="login_div" class="login_form">
+				<h2>Sign Up</h2>
+				First Name:* <input type="text" id="first_input" name="firstname">
+				Middle Name:*<br>
+				<input type="text" id="middle_input" fname="middle">
+				Last Name:* <input type="text" id="last_input" name="lastname">
+				<div id="radio_box">
+					<label for="malebtn">
+						<input type="radio" id="malebtn" name="male">
+						Male
+					</label>
+					<label for="femalebtn">
+						<input type="radio" id="femalebtn"name="female">
+						Female
+					</label>
+					<label for="otherbtn">
+						<input type="radio" id="otherbtn" name="other">
+						Other
+					</label>
+				</div>
+				<div id="checkboxes" class="checkboxes">
+					<input type="checkbox" name="check1" value="Marvel">Marvel Comics
+					<input type="checkbox" name="check2" value="DC">DC Comics
+				</div>
+				<textarea rows="4" cols="60" placeholder="Tell me something about yourself."></textarea>
+				<button id="submit_button" type="submit">Submit</button>
+
+			</div>
+			<div id="hero_text">
+				<h1 id="hero_greeting">Hello</h1>
+				<h2>Welcome to my website</h2>
+			</div>
+		</section>
+		<main>
+			<div id="wrapper">
+				<section>
+					<h2>About Me</h2>
+					<p>My name is Karson Peterson and I am 21 years old and also a student here at DSU studying CIT with an emphasis in Software Development. I am a senior and will be graduating in 2020. I have always been interested in coding and pretty much anything to do with computers and technology. This website is to let you know a little bit more about me, enjoy!</p>
+				</section>
+				<section>
+					<h2>Hobbies</h2>
+					<p>Here are some of my hobbies: </p>
+					<ul>
+						<li>Playing videogames</li>
+						<li>Golfing</li>
+						<li>Hiking</li>
+						<li>Snowboarding</li>
+						<li>Movies</li>
+					</ul>
+					<p>While these are my favorite things to do, I enjoy many other things as long as I am with my favorite people.</p>
+				</section>
+				<section>
+					<h2>Pictures</h2>
+					<p>Here are pretty much the only meaningful pictures I have on my phone and laptop.</p>
+					<div class="grid_container">
+						<div class="item1">
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<img src="homies.jpeg" alt="Friends and I">
+									</div>
+									<div class="flip-card-back">
+										<h1>Friends and I</h1>
+										<p>My best friends Morgan and Daniel</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item2">
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<img src="selfie_me.jpg" alt="Selfie of me">
+									</div>
+									<div class="flip-card-back">
+										<h1>Only selfie</h1>
+										<p>Only time I get dressed up</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item3">
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<img src="black_wedding.jpg" alt="Black Wedding">
+									</div>
+									<div class="flip-card-back">
+										<h1>Wedding</h1>
+										<p>All of my friends from high school</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
